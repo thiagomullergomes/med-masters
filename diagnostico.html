@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Med Masters - Diagnóstico</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Lato:wght@300;400;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="diagnostico.css">
+</head>
+<body>
+    <div class="container">
+        <div class="profile">
+            <a href="index.html" class="logo">M</a>
+            <h1>Diagnóstico Estratégico</h1>
+            <p>Descubra o caminho ideal para o sucesso do seu consultório</p>
+        </div>
+
+        <div class="form-container">
+            <form id="diagnosticForm" class="diagnostic-form">
+                <div class="form-section">
+                    <h2>Informações Básicas</h2>
+                    <div class="form-group">
+                        <label for="name">Nome Completo</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Telefone/WhatsApp</label>
+                        <input type="tel" id="phone" name="phone" placeholder="(00) 00000-0000" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="specialty">Especialidade Médica</label>
+                        <input type="text" id="specialty" name="specialty" required>
+                    </div>
+                </div>
+
+                <div class="form-section">
+                    <h2>Sobre seu Consultório</h2>
+                    <div class="form-group">
+                        <label for="experience">Há quanto tempo atua na especialidade?</label>
+                        <select id="experience" name="experience" required>
+                            <option value="">Selecione...</option>
+                            <option value="menos-1">Menos de 1 ano</option>
+                            <option value="1-2">Entre 1 e 2 anos</option>
+                            <option value="2-4">Entre 2 e 4 anos</option>
+                            <option value="4-10">Entre 4 e 10 anos</option>
+                            <option value="10+">Mais de 10 anos</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Você já possui consultório próprio?</label>
+                        <div class="radio-group">
+                            <label class="radio-label">
+                                <input type="radio" name="hasClinic" value="sim" required>
+                                <span>Sim</span>
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="hasClinic" value="nao">
+                                <span>Não</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-section">
+                    <h2>Principais Desafios</h2>
+                    <div class="form-group">
+                        <label>Quais são seus principais desafios atualmente? (Selecione até 3)</label>
+                        <div class="checkbox-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="challenges" value="captacao">
+                                <span>Captação de Pacientes</span>
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="challenges" value="gestao">
+                                <span>Gestão do Consultório</span>
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="challenges" value="financeiro">
+                                <span>Gestão Financeira</span>
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="challenges" value="marketing">
+                                <span>Marketing e Divulgação</span>
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="challenges" value="tempo">
+                                <span>Gestão de Tempo</span>
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="challenges" value="equipe">
+                                <span>Gestão de Equipe</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-section">
+                    <h2>Objetivos</h2>
+                    <div class="form-group">
+                        <label for="goals">Quais são seus principais objetivos para os próximos 12 meses?</label>
+                        <textarea id="goals" name="goals" rows="4" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="investment">Qual seu orçamento mensal para investimento em desenvolvimento profissional?</label>
+                        <select id="investment" name="investment" required>
+                            <option value="">Selecione...</option>
+                            <option value="ate-1000">Até R$ 1.000</option>
+                            <option value="1000-3000">R$ 1.000 - R$ 3.000</option>
+                            <option value="3000-5000">R$ 3.000 - R$ 5.000</option>
+                            <option value="5000+">Acima de R$ 5.000</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-section">
+                    <h2>Disponibilidade</h2>
+                    <div class="form-group">
+                        <label for="availability">Qual seria sua disponibilidade semanal para dedicar ao desenvolvimento do consultório?</label>
+                        <select id="availability" name="availability" required>
+                            <option value="">Selecione...</option>
+                            <option value="2-4">2 a 4 horas por semana</option>
+                            <option value="4-6">4 a 6 horas por semana</option>
+                            <option value="6-8">6 a 8 horas por semana</option>
+                            <option value="8+">Mais de 8 horas por semana</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact_preference">Como prefere ser contatado(a)?</label>
+                        <select id="contact_preference" name="contact_preference" required>
+                            <option value="">Selecione...</option>
+                            <option value="whatsapp">WhatsApp</option>
+                            <option value="ligacao">Ligação telefônica</option>
+                            <option value="email">E-mail</option>
+                        </select>
+                    </div>
+                </div>
+
+                <button type="submit" class="submit-button">
+                    <span>Receber Diagnóstico Personalizado</span>
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+            </form>
+        </div>
+
+        <div class="links">
+            <a href="index.html" class="link-card">
+                <div class="link-content">
+                    <span class="link-title">Voltar ao Menu Principal</span>
+                    <span class="link-arrow">→</span>
+                </div>
+            </a>
+        </div>
+    </div>
+    <script src="diagnostico.js"></script>
+</body>
+</html>

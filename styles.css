@@ -40,7 +40,7 @@
 }
 
 body {
-    font-family: 'Archivo-Expanded', sans-serif;
+    <link rel="stylesheet" href="https://use.typekit.net/fef7rhd.css">
     background: 
         linear-gradient(135deg, rgba(0,0,0,0.95), rgba(0,0,0,0.93)),
         repeating-linear-gradient(45deg, 

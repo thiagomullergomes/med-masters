@@ -180,7 +180,7 @@ body::after {
 .profile p {
     color: var(--text-secondary);
     font-size: 20px;
-    margin-bottom: 16px;
+    margin-bottom: 4px;
 }
 
 .contact-info {

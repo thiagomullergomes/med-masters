@@ -330,8 +330,8 @@ body::after {
     }
 
     .profile p {
-        font-size: 18px;
-        padding: 0 20px;
+        font-size: 30px;
+        padding: 0 -20px;
     }
 
     .profile p::after {

@@ -181,7 +181,7 @@ body::after {
     color: var(--text-secondary);
     font-family: 'Archivo-Expanded', regular;
     font-size: 20px;
-    margin-bottom: 16px;
+    margin-bottom: -30px;
 }
 
 .contact-info {

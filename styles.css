@@ -167,7 +167,7 @@ body::after {
     font-family: 'Playfair Display', serif;
     font-size: 52px;
     font-weight: 700;
-    margin-bottom: 24px;
+    margin-bottom: 4px;
     color: var(--text);
     letter-spacing: -0.5px;
     background: linear-gradient(to right, var(--gold) 0%, var(--gold-light) 50%, var(--gold) 100%);
@@ -179,8 +179,9 @@ body::after {
 
 .profile p {
     color: var(--text-secondary);
+    font-family: 'Archivo-Expanded', regular;
     font-size: 20px;
-    margin-bottom: 4px;
+    margin-bottom: 16px;
 }
 
 .contact-info {

@@ -167,7 +167,7 @@ body::after {
     font-family: 'Playfair Display', serif;
     font-size: 52px;
     font-weight: 700;
-    margin-bottom: -20px;
+    margin-bottom: 0px;
     color: var(--text);
     letter-spacing: -0.5px;
     background: linear-gradient(to right, var(--gold) 0%, var(--gold-light) 50%, var(--gold) 100%);

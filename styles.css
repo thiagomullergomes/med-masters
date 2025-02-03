@@ -279,7 +279,7 @@ body::after {
 .link-title {
     font-size: 18px;
     font-weight: 400;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Archivo-Expanded', sans-serif;
     color: var(--text);
     letter-spacing: 0.5px;
 }
